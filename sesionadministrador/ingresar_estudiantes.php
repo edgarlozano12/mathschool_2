@@ -147,6 +147,7 @@ $user_name=$_SESSION['admin']
                                                         <?php while($row=mysqli_fetch_array($res)) {?>
                                                         <option value="<?php echo $row['codigo']?>"> <?php echo $row['codigo'];?></option>
                                                         <?php } ?>
+                                                </select> 
                                             </div>
 
                                             <div class="form-group">

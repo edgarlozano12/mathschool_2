@@ -145,7 +145,8 @@ $user_name=$_SESSION['admin']
                                                         <option value="">Elige una opción</option>
                                                         <option value="3A">3A</option>
                                                         <option value="3B">3B</option>
-                                                <br>
+                                                </select>
+                                              
                                             </div>
                                             <div class="form-group">
                                                 <input class="form-control" placeholder="Usuario" name="usuario" type="text" autofocus>
